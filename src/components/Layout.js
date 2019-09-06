@@ -51,7 +51,7 @@ const TemplateWrapper = ({ children }) => {
       </Helmet>
       <Navbar />
 
-      <AniLink fade to="blog">
+      <AniLink swipe top="entry" to="/about/" entryOffset={80}>
         Go to Page 4
       </AniLink>
       <div>{children}</div>

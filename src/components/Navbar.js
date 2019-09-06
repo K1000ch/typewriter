@@ -76,9 +76,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact/examples">
                 Form Examples
               </Link>
-              <AniLink fade to="blog">
-                Go to Page 4
-              </AniLink>
+                    <AniLink swipe top="entry" to="/about/" entryOffset={80}>
+                      Go to Page 4
+                    </AniLink>
 
             </div>
             <div className="navbar-end has-text-centered">

@@ -76,10 +76,14 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact/examples">
                 Form Examples
               </Link>
+                    {/*
                     <AniLink swipe top="entry" to="/about/" entryOffset={80}>
-                      Go to Page 4
+                      about
                     </AniLink>
-
+                    <AniLink swipe top="entry" to="/blog/" entryOffset={80}>
+                      blog
+                    </AniLink>
+                    */}
             </div>
             <div className="navbar-end has-text-centered">
               <a

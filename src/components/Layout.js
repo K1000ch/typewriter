@@ -2,13 +2,11 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import './all.sass'
 import '../assets/styles/basic/reset.css'
 import '../assets/styles/basic/base.scss'
 import '../assets/styles/basic/typography.scss'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from "gatsby"
-import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
@@ -50,10 +48,6 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:image" content={`${withPrefix("/")}img/og-image.jpg`} />
       </Helmet>
       <Navbar />
-
-      <AniLink swipe top="entry" to="/about/" entryOffset={80}>
-        Go to Page 4
-      </AniLink>
       <div>{children}</div>
       <Footer />
     </div>

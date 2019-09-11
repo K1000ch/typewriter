@@ -61,41 +61,21 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
+              <AniLink fade duration={0.6} className="navbar-item" to="/about">
                 About
-              </Link>
-              <Link className="navbar-item" to="/products">
+              </AniLink>
+              <AniLink fade duration={0.6} className="navbar-item" to="/products">
                 Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
+              </AniLink>
+              <AniLink fade duration={0.6} className="navbar-item" to="/blog">
                 Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
+              </AniLink>
+              <AniLink fade duration={0.6} className="navbar-item" to="/contact">
                 Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
+              </AniLink>
+              <AniLink fade duration={0.6} className="navbar-item" to="/contact/examples/">
                 Form Examples
-              </Link>
-                    {/*
-                    <AniLink swipe top="entry" to="/about/" entryOffset={80}>
-                      about
-                    </AniLink>
-                    <AniLink swipe top="entry" to="/blog/" entryOffset={80}>
-                      blog
-                    </AniLink>
-                    */}
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
+              </AniLink>
             </div>
           </div>
         </div>

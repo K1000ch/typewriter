@@ -3,13 +3,13 @@ const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
-/*
+
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
   return graphql(`
     {
-      allMarkdownRemark(limit: 1000) {
+      allMarkdownRemark(limit: 1000, filter: {frontmatter: {templateKey: {eq: "blog-post"}}}) {
         edges {
           node {
             id
@@ -72,7 +72,7 @@ exports.createPages = ({ actions, graphql }) => {
     })
   })
 }
-*/
+
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions

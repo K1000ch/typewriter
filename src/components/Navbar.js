@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
@@ -12,7 +11,6 @@ const Navbar = class extends React.Component {
       navBarActiveClass: '',
     }
   }
-
   toggleHamburger = () => {
     // toggle the active boolean in the state
     this.setState(
@@ -42,9 +40,11 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
+          {/*
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+              <img src={logo} alt="Kaldi"/>
             </Link>
+          */}
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
@@ -61,11 +61,11 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
+              <AniLink fade duration={0.6} className="navbar-item" to="/">
+                Home
+              </AniLink>
               <AniLink fade duration={0.6} className="navbar-item" to="/about">
                 About
-              </AniLink>
-              <AniLink fade duration={0.6} className="navbar-item" to="/products">
-                Products
               </AniLink>
               <AniLink fade duration={0.6} className="navbar-item" to="/blog">
                 Blog

@@ -13,6 +13,7 @@ export const BlogPostTemplate = ({
   tags,
   title,
   helmet,
+  title_jp,
 }) => {
   const PostContent = contentComponent || Content
 
@@ -52,6 +53,7 @@ BlogPostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
+  title_jp: PropTypes.string,
 }
 
 const BlogPost = ({ data }) => {
@@ -74,6 +76,7 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        title_jp={post.frontmatter.title_jp}
       />
     </Layout>
   )
@@ -97,6 +100,7 @@ export const pageQuery = graphql`
         title
         description
         tags
+        title_jp
       }
     }
   }

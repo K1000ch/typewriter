@@ -8,6 +8,7 @@ description: The Coffee Taster’s Flavor Wheel, the official resource used by c
 tags:
   - flavor
   - tasting
+title_jp: "これは日本語タイトルです"
 ---
 ![flavor wheel](/img/flavor_wheel.jpg)
 

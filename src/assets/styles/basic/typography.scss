@@ -1,7 +1,23 @@
 $color-quinary: grey;
 
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Serif+JP|Sawarabi+Mincho&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700|Noto+Serif+JP:200,300,400,500,600,700|Sawarabi+Mincho&display=swap');
+// font-family: 'Noto Sans JP', sans-serif;
+// font-family: 'Sawarabi Mincho', sans-serif;
+// font-family: 'Noto Serif JP', serif;
+
+// Font
+html{
+  color: #222222;
+  // font-family: 'Noto Sans JP', sans-serif;
+  font-family: sans-serif;
+  // background-color: #fcfcfc;
+}
+
+
 // Typography
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
+
 b,
 strong {
   font-weight: bold;
@@ -17,10 +33,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300;
+  // font-weight: 300;
   letter-spacing: -0.1rem;
-  margin-bottom: 2rem;
+  // margin-bottom: 2rem;
   margin-top: 0;
+  padding: 0;
+  display: block;
 }
 
 h1 {

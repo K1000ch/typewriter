@@ -11,6 +11,7 @@ const Navbar = class extends React.Component {
       navBarActiveClass: '',
     }
   }
+  /*
   toggleHamburger = () => {
     // toggle the active boolean in the state
     this.setState(
@@ -30,22 +31,17 @@ const Navbar = class extends React.Component {
       }
     )
   }
+  */
 
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar"
         role="navigation"
         aria-label="main-navigation"
       >
         <div className="container">
           <div className="navbar-brand">
-          {/*
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi"/>
-            </Link>
-          */}
-            {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
@@ -60,23 +56,33 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
-              <AniLink fade duration={0.6} className="navbar-item" to="/">
-                Home
-              </AniLink>
-              <AniLink fade duration={0.6} className="navbar-item" to="/about">
-                About
-              </AniLink>
-              <AniLink fade duration={0.6} className="navbar-item" to="/blog">
-                Blog
-              </AniLink>
-              <AniLink fade duration={0.6} className="navbar-item" to="/contact">
-                Contact
-              </AniLink>
-              <AniLink fade duration={0.6} className="navbar-item" to="/contact/examples/">
-                Form Examples
-              </AniLink>
-            </div>
+            <ul className="">
+              <li>
+                <AniLink fade duration={0.6} className="navbar-item" to="/">
+                  Home
+                </AniLink>
+              </li>
+              <li>
+                <AniLink fade duration={0.6} className="navbar-item" to="/about">
+                  About
+                </AniLink>
+              </li>
+              <li>
+                <AniLink fade duration={0.6} className="navbar-item" to="/blog">
+                  Blog
+                </AniLink>
+              </li>
+              <li>
+                <AniLink fade duration={0.6} className="navbar-item" to="/contact">
+                  Contact
+                </AniLink>
+              </li>
+              <li>
+                <AniLink fade duration={0.6} className="navbar-item" to="/contact/examples/">
+                  Form Examples
+                </AniLink>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>

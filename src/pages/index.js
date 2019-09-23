@@ -10,7 +10,7 @@ import image from "../../static/img/products-grid1.jpg"
 const TagsPage = () => (
   <Layout>
     <div>
-      hello
+      indexpage
     </div>
   </Layout>
 )

@@ -5,6 +5,8 @@ import Navbar from '../components/Navbar'
 import '../assets/styles/basic/reset.css'
 import '../assets/styles/basic/base.scss'
 import '../assets/styles/basic/typography.scss'
+import '../assets/styles/components/layout.scss'
+
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from "gatsby"
 
@@ -48,11 +50,20 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:image" content={`${withPrefix("/")}img/og-image.jpg`} />
       </Helmet>
 
-      <Navbar />
-      <div className="main">
-        {children} 
+      <div className="clearfix">
+        <div className="left">
+          <h1>
+            知らない国の知らない言葉
+          </h1>
+          <Navbar/>
+        </div>
+        <div className="right">
+          <div className="main">
+            {children} 
+          </div>
+          <Footer />
+        </div>
       </div>
-      <Footer />
     </div>
   )
 }

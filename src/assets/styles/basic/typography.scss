@@ -17,6 +17,13 @@ html{
 
 // Typography
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
+a{
+  text-decoration: none;
+  color: #222222;
+  :hover{
+    text-decoration: underline;
+  }
+}
 
 b,
 strong {

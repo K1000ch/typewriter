@@ -1,5 +1,6 @@
 import React from 'react'
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+import "../assets/styles/components/navbar.scss"
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -39,6 +40,7 @@ const Navbar = class extends React.Component {
         aria-label="main-navigation"
       >
         <div className="container">
+          {/*
           <div className="navbar-brand">
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
@@ -50,11 +52,12 @@ const Navbar = class extends React.Component {
               <span />
             </div>
           </div>
+          */}
           <div
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <ul className="">
+            <ul>
               <li>
                 <AniLink fade duration={0.6} className="navbar-item" to="/">
                   Home

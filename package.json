@@ -21,6 +21,7 @@
     "gatsby-transformer-remark": "^2.6.9",
     "gatsby-transformer-sharp": "^2.1.9",
     "gsap": "^2.1.3",
+    "hover-effect": "^1.1.0",
     "lodash": "^4.17.15",
     "lodash-webpack-plugin": "^0.11.4",
     "milligram": "^1.3.0",

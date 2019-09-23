@@ -1,6 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import logo from '../img/logo.svg'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 const Navbar = class extends React.Component {

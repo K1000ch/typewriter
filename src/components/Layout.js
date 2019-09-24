@@ -7,6 +7,10 @@ import '../assets/styles/basic/base.scss'
 import '../assets/styles/basic/typography.scss'
 import '../assets/styles/components/layout.scss'
 
+import facebook from '../img/social/facebook.svg'
+import instagram from '../img/social/instagram.svg'
+import twitter from '../img/social/twitter.svg'
+
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from "gatsby"
 
@@ -52,10 +56,48 @@ const TemplateWrapper = ({ children }) => {
 
       <div className="clearfix">
         <div className="left">
-          <h1>
-            知らない国の知らない言葉
-          </h1>
-          <Navbar/>
+            <h1 className="siteTitle">
+              知らない国の
+              <br/>
+              知らない言葉
+            </h1>
+            <p className="siteDescription">
+              レビュー、雑記、その他諸々
+            </p>
+            <h2 className="menuHeader">
+              Menu
+            </h2>
+            <Navbar className="leftNav"/>
+            <h2 className="menuHeader">
+              External Link
+            </h2>
+
+          <div className="social">
+            <a title="facebook" href="https://facebook.com">
+              <img
+                src={facebook}
+                alt="Facebook"
+                style={{ width: '1em', height: '1em' }}
+              />
+            </a>
+            <a title="twitter" href="https://twitter.com">
+              <img
+                className="fas fa-lg"
+                src={twitter}
+                alt="Twitter"
+                style={{ width: '1em', height: '1em' }}
+              />
+            </a>
+            <a title="instagram" href="https://instagram.com">
+              <img
+                src={instagram}
+                alt="Instagram"
+                style={{ width: '1em', height: '1em' }}
+              />
+            </a>
+          </div>
+
+            <div className="pad"></div>
         </div>
         <div className="right">
           <div className="main">

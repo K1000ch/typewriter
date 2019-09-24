@@ -8,8 +8,16 @@ import Layout from '../../components/Layout'
 
 const TagsPage = () => (
   <Layout>
-    <div>
-      About
+    <div className="aboutPage">
+      <h1>
+        About
+      </h1>
+      <h2>
+        Author
+      </h2>
+      <p>
+        chihiro
+      </p>
     </div>
   </Layout>
 )

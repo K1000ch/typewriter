@@ -18,9 +18,6 @@ const TagsPage = () => (
         className="ripple"
       >
       </WaterWave>
-      <h1>
-        こんにちは
-      </h1>
     </div>
   </Layout>
 )

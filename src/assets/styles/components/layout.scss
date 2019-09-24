@@ -9,10 +9,58 @@
       float: left;
       width: 20%;
       position: fixed;
-      background-color: aquamarine;
-      h1{
-        font-size: 1rem;
-        font-weight: normal;
+      text-align: right;
+      height: 100%;
+      overflow-y: scroll;
+      top: 0;
+      bottom: 0;
+      margin-top: 5%;
+      margin-bottom: 5%;
+
+      /*スクロールバーの幅*/
+      &::-webkit-scrollbar {
+        width: 0px;
+      }
+      /*スクロールバーのレール*/
+      &::-webkit-scrollbar-track {
+        border-radius: 0px;
+        background: #ffffff;
+      }
+      /*スクロールバーのつまみ*/
+      &::-webkit-scrollbar-thumb {
+        border-radius: 0px;
+        background: grey;
+      }
+      .pad{
+        height: 20vh;
+      }
+      .siteTitle{
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 1vh;
+      }
+      .siteDescription{
+        font-size: 0.85rem;
+        font-weight: lighter;
+        margin-bottom: 6vh;
+      }
+      .menuHeader{
+        font-size: 1.6rem;
+        margin-bottom: 2vh;
+        font-weight: 500;
+      }
+      .leftNav{
+        margin-bottom: 2vh;
+      }
+      ul{
+        li{
+          width: 100%;
+          margin-bottom: 2vh;
+          border-bottom: solid 1px #ffffff;
+          :hover{
+            border-bottom: solid 1px #222222;
+          }
+        }
       }
     }
     .right{
@@ -20,6 +68,9 @@
       width: 60%;
       margin-left: 30%;
       margin-bottom: 5%;
+      .main{
+        margin-bottom: 10vh;
+      }
     }
   }
 }

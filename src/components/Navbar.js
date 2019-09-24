@@ -70,7 +70,7 @@ const Navbar = class extends React.Component {
               </li>
               <li>
                 <AniLink fade duration={0.6} className="navbar-item" to="/blog">
-                  Blog
+                  Posts
                 </AniLink>
               </li>
               <li>

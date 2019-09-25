@@ -62,7 +62,7 @@ const TemplateWrapper = ({ children }) => {
               知らない言葉
             </h1>
             <p className="siteDescription">
-              レビュー、雑記、その他諸々
+              review, blog, and some
             </p>
             <h2 className="menuHeader">
               Menu

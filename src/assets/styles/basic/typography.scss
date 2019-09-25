@@ -14,9 +14,14 @@ html{
   // background-color: #fcfcfc;
 }
 
-
 // Typography
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
+html{
+  font-size: 62.5%;
+}
+body{
+  font-size: 1.6em;
+}
 a{
   text-decoration: none;
   color: #222222;
@@ -32,6 +37,7 @@ strong {
 
 p {
   margin-top: 0;
+  font-size: 1.7rem;
 }
 
 h1,
@@ -164,7 +170,9 @@ th{
   }
 }
 
-// list style
+// List Style
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
 ul,
 ol{
   list-style: none;

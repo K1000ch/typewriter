@@ -6,6 +6,8 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
+import "../assets/styles/pages/blogPost.scss"
+
 export const BlogPostTemplate = ({
   content,
   contentComponent,
@@ -18,13 +20,13 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
+    <section className="section blogPost">
       {helmet || ''}
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
+            <h1 className="title is-size-2 has-text-weight-bold is-bold-light pageTitle">
+              {title_jp}
             </h1>
             <p>{description}</p>
             <PostContent content={content} />

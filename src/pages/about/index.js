@@ -9,7 +9,7 @@ import Layout from '../../components/Layout'
 const TagsPage = () => (
   <Layout>
     <div className="aboutPage">
-      <h1>
+      <h1 className="pageTitle">
         About
       </h1>
       <h2>

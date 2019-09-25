@@ -78,11 +78,6 @@ const Navbar = class extends React.Component {
                   Contact
                 </AniLink>
               </li>
-              <li>
-                <AniLink fade duration={0.6} className="navbar-item" to="/contact/examples/">
-                  Form Examples
-                </AniLink>
-              </li>
             </ul>
           </div>
         </div>

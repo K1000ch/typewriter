@@ -7,8 +7,8 @@ export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <div>
-          <h1>Blog</h1>
+        <div className="blogPostPage">
+          <h1 className="pageTitle">Posts</h1>
           <section className="section">
             <div className="container">
               <div className="content">

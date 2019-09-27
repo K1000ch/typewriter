@@ -1,6 +1,15 @@
+$baseMargin: 25px;
+
 .blogPost{
+  p,table,ul,ol,blockquote{
+    margin-bottom: $baseMargin;
+    line-height: 1.6;
+  }
   p{
     line-height: 1.6;
-    margin-bottom: 15px;
+    margin-bottom: $baseMargin;
+  }
+  table{
+    margin-bottom: $baseMargin;
   }
 }

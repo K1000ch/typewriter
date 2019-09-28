@@ -16,6 +16,7 @@ export const BlogPostTemplate = ({
   title,
   helmet,
   title_jp,
+  date,
 }) => {
   const PostContent = contentComponent || Content
 
@@ -25,10 +26,23 @@ export const BlogPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
+            <span>
+              {date}
+            </span>
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light pageTitle">
               {title_jp}
             </h1>
+
+            <ul className="taglist">
+              {tags.map(tag => (
+                <li key={tag + `tag`}>
+                  <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                </li>
+              ))}
+            </ul>
+            {/*
             <p>{description}</p>
+            */}
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -56,6 +70,7 @@ BlogPostTemplate.propTypes = {
   title: PropTypes.string,
   helmet: PropTypes.object,
   title_jp: PropTypes.string,
+  date: PropTypes.string,
 }
 
 const BlogPost = ({ data }) => {
@@ -79,6 +94,7 @@ const BlogPost = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         title_jp={post.frontmatter.title_jp}
+        date={post.frontmatter.date}
       />
     </Layout>
   )
@@ -98,7 +114,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "YYYY/MM/DD")
         title
         description
         tags

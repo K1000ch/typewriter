@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 class BlogRoll extends React.Component {
   render() {
@@ -32,23 +33,19 @@ class BlogRoll extends React.Component {
                     </div>
                   ) : null}
                   <p className="post-meta">
-                    <h2>
+                    <span className="posted-date">{post.frontmatter.date}</span>
+                    <h2 className="post-title">
                       <Link
-                        className="title has-text-primary is-size-4"
+                        className="title has-text-primary"
                         to={post.fields.slug}
                       >
                         {post.frontmatter.title_jp}
                       </Link>
                     </h2>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
                   </p>
                 </header>
                 <p>
                   {post.excerpt}
-                  <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
                     Keep Reading →
@@ -80,7 +77,7 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
+              excerpt(pruneLength: 300)
               id
               fields {
                 slug
@@ -88,7 +85,7 @@ export default () => (
               frontmatter {
                 title
                 templateKey
-                date(formatString: "MMMM DD, YYYY")
+                date(formatString: "YYYY/MM/DD")
                 featuredpost
                 title_jp
                 featuredimage {

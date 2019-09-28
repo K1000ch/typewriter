@@ -1,0 +1,28 @@
+.blogPage{
+  .blog-list-item{
+    margin-bottom: 6vh;
+    .post-title{
+      font-size: 2rem;
+      font-weight: 600;
+      border-bottom: solid 2px #222222;
+      padding-bottom: 2vh;
+      padding-top: 1vh;
+      margin-bottom: 2vh;
+    }
+    .posted-date{
+      color: #333333;
+    }
+    .button{
+      border-bottom: solid 2px #ffffff;
+      &:hover{
+        border-bottom: solid 2px #222222;
+      }
+    }
+    p{
+      line-height: 1.7;
+    }
+    .featured-thumbnail{
+      display: none;
+    }
+  }
+}

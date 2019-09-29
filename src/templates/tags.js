@@ -19,18 +19,6 @@ class TagRoute extends React.Component {
                 }`}
               >
                 <header>
-                  {post.node.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.node.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${
-                            post.node.title
-                          }`,
-                        }}
-                      />
-                    </div>
-                  ) : null}
                   <p className="post-meta">
                     <span className="posted-date">{post.node.frontmatter.date}</span>
                     <AniLink
@@ -46,6 +34,18 @@ class TagRoute extends React.Component {
                   </p>
                 </header>
                 <p>
+                  {post.node.frontmatter.featuredimage ? (
+                    <div className="featured-thumbnail">
+                      <PreviewCompatibleImage
+                        imageInfo={{
+                          image: post.node.frontmatter.featuredimage,
+                          alt: `featured image thumbnail for post ${
+                            post.node.title
+                          }`,
+                        }}
+                      />
+                    </div>
+                  ) : null}
                   {post.node.excerpt}
                   <br />
                   <AniLink

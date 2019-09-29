@@ -20,18 +20,6 @@ class BlogRoll extends React.Component {
                 }`}
               >
                 <header>
-                  {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${
-                            post.title
-                          }`,
-                        }}
-                      />
-                    </div>
-                  ) : null}
                   <p className="post-meta">
                     <span className="posted-date">{post.frontmatter.date}</span>
                     <AniLink
@@ -47,6 +35,19 @@ class BlogRoll extends React.Component {
                   </p>
                 </header>
                 <p>
+
+                  {post.frontmatter.featuredimage ? (
+                    <div className="featured-thumbnail">
+                      <PreviewCompatibleImage
+                        imageInfo={{
+                          image: post.frontmatter.featuredimage,
+                          alt: `featured image thumbnail for post ${
+                            post.title
+                          }`,
+                        }}
+                      />
+                    </div>
+                  ) : null}
                   {post.excerpt}
                   <br />
                   <AniLink

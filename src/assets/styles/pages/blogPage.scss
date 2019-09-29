@@ -1,6 +1,11 @@
 .blogPage{
   .blog-list-item{
     margin-bottom: 6vh;
+    &:after{
+      display: block;
+      content: "";
+      clear: both;
+    }
     a{
       border-bottom: none;
       &:hover{
@@ -32,9 +37,12 @@
     }
     p{
       line-height: 1.7;
+      font-size: 1.5rem;
     }
     .featured-thumbnail{
-      display: none;
+      width: 35%;
+      margin-right: 2vh;
+      float: left;
     }
 
     a{

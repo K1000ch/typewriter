@@ -3,6 +3,7 @@ import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/Layout'
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 
@@ -16,9 +17,12 @@ const TagsPage = () => (
       <p>
         review,blog,and some
         <br/>
+        モバイル対応準備中です
+        <br/><br/>
         Author : Chihiro
         <br/>
-        現在モバイル対応準備中
+        <a href="https://twitter.com/Airport1000">> Twitter</a>
+        <br/>
       </p>
 
     </div>

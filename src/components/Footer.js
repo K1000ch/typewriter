@@ -178,9 +178,14 @@ export default () => (
             </h2>
             <ul className="menu-list">
               <li>
-                <AniLink fade duration={0.6} className="navbar-item" to="/">
-                  Twitter
-                </AniLink>
+                <a title="twitter" href="https://twitter.com/Airport1000">
+                  <img
+                    className="fas fa-lg"
+                    src={twitter}
+                    alt="Twitter"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
               </li>
             </ul>
           </section>

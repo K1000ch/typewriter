@@ -56,35 +56,52 @@ const TemplateWrapper = ({ children }) => {
 
       <div className="clearfix">
         <div className="left">
-            <h1 className="siteTitle">
-              知らない国の
-              <br/>
-              知らない言葉
-            </h1>
-            <p className="siteDescription">
-              review, blog, and some
-            </p>
-            <h2 className="menuHeader">
-              Menu
-            </h2>
-            <Navbar className="leftNav"/>
-            <h2 className="menuHeader">
-              External Link
-            </h2>
-
+          <h1 className="siteTitle">
+            知らない国の
+            <br/>
+            知らない言葉
+          </h1>
+          <p className="siteDescription">
+            review, blog, and some
+          </p>
+          <h2 className="menuHeader">
+            Menu
+          </h2>
+          <Navbar className="leftNav"/>
+          <h2 className="menuHeader">
+            External Link
+          </h2>
           <div className="social">
-            <a title="facebook" href="https://facebook.com">
-              <img
-                src={facebook}
-                alt="Facebook"
-                style={{ width: '1em', height: '1em' }}
-              />
-            </a>
             <a title="twitter" href="https://twitter.com">
               <img
                 className="fas fa-lg"
                 src={twitter}
                 alt="Twitter"
+                style={{ width: '1em', height: '1em' }}
+              />
+            </a>
+          </div>
+          <h2 className="menuHeader">
+            Share
+          </h2>
+          <div className="social">
+            <a href="https://twitter.com/share?
+              url=http://itoh-archive.hatenablog.com/entry/about&
+              text=TwitterShareTest"
+              rel="nofollow" 
+              target="_blank"
+            >
+              <img
+                className="fas fa-lg"
+                src={twitter}
+                alt="Twitter"
+                style={{ width: '1em', height: '1em' }}
+              />
+            </a>
+            <a title="facebook" href="https://facebook.com">
+              <img
+                src={facebook}
+                alt="Facebook"
                 style={{ width: '1em', height: '1em' }}
               />
             </a>

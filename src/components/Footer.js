@@ -10,6 +10,7 @@ import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
 import vimeo from '../img/social/vimeo.svg'
 
+import "../assets/styles/components/footer.scss"
 
 /*
 const Footer = class extends React.Component {
@@ -124,8 +125,26 @@ export default () => (
       }
     `}
     render={data => (
-      <footer>
+      <footer className="footer">
         <div className="container">
+
+        <section>
+            <h2>Tags</h2>
+            <ul className="menu-list">
+              <li>
+                <AniLink fade duration={0.6} to={`/tags/`}>
+                  > All
+                </AniLink>
+              </li>
+              {data.allMarkdownRemark.group.map(tag => (
+                <li key={tag.fieldValue}>
+                  <AniLink fade duration={0.6} to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                    > {tag.fieldValue}
+                  </AniLink>
+                </li>
+              ))}
+            </ul>
+          </section>
           <section className="menu">
             <h2>
               Menu
@@ -153,25 +172,20 @@ export default () => (
               </li>
             </ul>
           </section>
-          <section>
-            <h2>Tags</h2>
+          <section className="menu">
+            <h2>
+              External Link
+            </h2>
             <ul className="menu-list">
-              {data.allMarkdownRemark.group.map(tag => (
-                <li key={tag.fieldValue}>
-                  <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-                    {tag.fieldValue} ({tag.totalCount})
-                  </Link>
-                </li>
-              ))}
               <li>
-                <AniLink fade duration={0.6} className="navbar-item" to="/contact">
-                  Contact
+                <AniLink fade duration={0.6} className="navbar-item" to="/">
+                  Twitter
                 </AniLink>
               </li>
             </ul>
           </section>
           <section className="social">
-            <h2>Share</h2>
+            <h2>Share This Site</h2>
             <a title="facebook" href="https://facebook.com">
               <img
                 src={facebook}

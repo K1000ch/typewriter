@@ -1,0 +1,19 @@
+.footer{
+  padding-top: 10vh;
+  li{
+    list-style: none;
+  }
+  h2{
+    font-weight: 500;
+  }
+  .menu-list{
+    margin-bottom: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    li{
+      margin-right: 20px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
+}

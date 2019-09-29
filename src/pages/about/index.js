@@ -12,12 +12,15 @@ const TagsPage = () => (
       <h1 className="pageTitle">
         About
       </h1>
-      <h2>
-        Author
-      </h2>
+      <h2>このサイトについて</h2>
       <p>
-        chihiro
+        review,blog,and some
+        <br/>
+        Author : Chihiro
+        <br/>
+        現在モバイル対応準備中
       </p>
+
     </div>
   </Layout>
 )

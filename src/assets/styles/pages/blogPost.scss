@@ -3,13 +3,74 @@ $baseMargin: 25px;
 .blogPost{
   p,table,ul,ol,blockquote{
     margin-bottom: $baseMargin;
-    line-height: 1.6;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+  }
+  h2,h3,h4,h5,h6{
+    margin-bottom: $baseMargin - 20px;
   }
   p{
-    line-height: 1.7;
+    line-height: 2.1;
     margin-bottom: $baseMargin;
+    letter-spacing: 0.03em;
   }
   table{
     margin-bottom: $baseMargin;
+  }
+  
+  // ImageStyles
+  //----------------------------
+  .innerImage{
+    padding: 10px;
+    // background-color: #d3d3d3;
+  }
+  .floatRight{
+    float: right;
+    margin-left: 2%;
+  }
+  .floatLeft{
+    float: left;
+    margin-right: 2%;
+  }
+  .imageS{
+    width: 30%;
+  }
+  .imageM{
+    width: 50%;
+  }
+  .imageL{
+    width: 70%;
+  }
+  .imageCaption{
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 1.5rem;
+  }
+
+
+  .blogPostHeader{
+    .blogPostTitle{
+      font-size: 2.5rem;
+      font-weight: 600;
+      border-bottom: solid 2px #222222;
+      padding-bottom: 1vh;
+      padding-top: 1vh;
+      margin-bottom: 2vh;
+      margin-bottom: 1vh;
+    }
+  }
+  .taglist{
+    display: flex;
+    li{
+      margin-right: 10px;
+      list-style: none;
+      a{
+        border-bottom: solid 1px #ffffff;
+        &:hover{
+          border-bottom: solid 1px #222222;
+          color: #555555;
+        }
+      }
+    }
   }
 }

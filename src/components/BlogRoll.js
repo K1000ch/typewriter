@@ -34,22 +34,29 @@ class BlogRoll extends React.Component {
                   ) : null}
                   <p className="post-meta">
                     <span className="posted-date">{post.frontmatter.date}</span>
-                    <h2 className="post-title">
-                      <Link
-                        className="title has-text-primary"
-                        to={post.fields.slug}
-                      >
+                    <AniLink
+                      fade
+                      duration={0.6}
+                      to={post.fields.slug}
+                      className="title has-text-primary"
+                    >
+                      <h2 className="post-title">
                         {post.frontmatter.title_jp}
-                      </Link>
-                    </h2>
+                      </h2>
+                    </AniLink>
                   </p>
                 </header>
                 <p>
                   {post.excerpt}
                   <br />
-                  <Link className="button" to={post.fields.slug}>
+                  <AniLink
+                      fade
+                      duration={0.6}
+                      className="button"
+                      to={post.fields.slug}
+                  >
                     Keep Reading →
-                  </Link>
+                  </AniLink>
                 </p>
               </article>
             </div>

@@ -26,20 +26,23 @@ export const BlogPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <span>
-              {date}
-            </span>
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light pageTitle">
-              {title_jp}
-            </h1>
-
-            <ul className="taglist">
-              {tags.map(tag => (
-                <li key={tag + `tag`}>
-                  <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                </li>
-              ))}
-            </ul>
+            <div className="blogPostHeader">
+              <span>
+                {date}
+              </span>
+              <h1 className="blogPostTitle">
+                {title_jp}
+              </h1>
+              <ul className="taglist">
+                <li>></li>
+                {tags.map(tag => (
+                  <li key={tag + `tag`}>
+                    <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                    ,
+                  </li>
+                ))}
+              </ul>
+            </div>
             {/*
             <p>{description}</p>
             */}
@@ -48,9 +51,11 @@ export const BlogPostTemplate = ({
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
                 <ul className="taglist">
+                  <li>></li>
                   {tags.map(tag => (
                     <li key={tag + `tag`}>
                       <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                      ,
                     </li>
                   ))}
                 </ul>

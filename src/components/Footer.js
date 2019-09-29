@@ -183,7 +183,6 @@ export default () => (
                     className="fas fa-lg"
                     src={twitter}
                     alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
                   />
                 </a>
               </li>
@@ -193,9 +192,9 @@ export default () => (
             <h2>Share This Site</h2>
             <a title="facebook" href="https://facebook.com">
               <img
+                className="fas fa-lg"
                 src={facebook}
                 alt="Facebook"
-                style={{ width: '1em', height: '1em' }}
               />
             </a>
             <a title="twitter" href="https://twitter.com">
@@ -203,14 +202,13 @@ export default () => (
                 className="fas fa-lg"
                 src={twitter}
                 alt="Twitter"
-                style={{ width: '1em', height: '1em' }}
               />
             </a>
             <a title="instagram" href="https://instagram.com">
               <img
+                className="fas fa-lg"
                 src={instagram}
                 alt="Instagram"
-                style={{ width: '1em', height: '1em' }}
               />
             </a>
           </section>

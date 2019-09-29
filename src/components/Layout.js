@@ -81,7 +81,6 @@ const TemplateWrapper = ({ children }) => {
                 className="fas fa-lg"
                 src={twitter}
                 alt="Twitter"
-                style={{ width: '1em', height: '1em' }}
               />
             </a>
           </div>
@@ -99,21 +98,20 @@ const TemplateWrapper = ({ children }) => {
                 className="fas fa-lg"
                 src={twitter}
                 alt="Twitter"
-                style={{ width: '1em', height: '1em' }}
               />
             </a>
             <a　title="facebook" href="https://www.facebook.com/sharer/sharer.php?u=">
               <img
+                className="fas fa-lg"
                 src={facebook}
                 alt="Facebook"
-                style={{ width: '1em', height: '1em' }}
               />
             </a>
             <a title="instagram" href="https://instagram.com">
               <img
+                className="fas fa-lg"
                 src={instagram}
                 alt="Instagram"
-                style={{ width: '1em', height: '1em' }}
               />
             </a>
           </div>

@@ -1,7 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import "../assets/styles/basic/form.scss"
-import "../assets/styles/pages/contactPage.scss"
 
 export const HTMLContent = ({ content, className }) => (
   <div className={className} dangerouslySetInnerHTML={{ __html: content }} />

@@ -1,6 +1,10 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
+// import "../assets/styles/basic/form.sass"
+import "../../assets/styles/pages/contactPage.scss"
+import "../../assets/styles/basic/milligram.scss"
+
 
 function encode(data) {
   return Object.keys(data)
@@ -38,7 +42,7 @@ export default class Index extends React.Component {
       <Layout>
         <section className="section contactPage">
           <div className="container">
-            <div className="content">
+            <div className="content milligram">
               <h1 className="pageTitle">Contact</h1>
               <form
                 name="contact"

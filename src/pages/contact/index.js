@@ -44,6 +44,7 @@ export default class Index extends React.Component {
           <div className="container">
             <div className="content milligram">
               <h1 className="pageTitle">Contact</h1>
+              <p className="pageDescription"></p>
               <p>※現在調整中のためフォームは機能しません</p>
               <a href="https://twitter.com/Airport1000">> Twitter</a>
               <form

@@ -13,7 +13,7 @@ const TagsPage = () => (
       <h1 className="pageTitle">
         About
       </h1>
-      <h2>このサイトについて</h2>
+      <p className="pageDescription">このサイトについて</p>
       <p>
         review,blog,and some
         <br/>

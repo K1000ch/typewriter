@@ -129,7 +129,7 @@ export default () => (
         <div className="container">
 
         <section>
-            <h2>Tags</h2>
+            <h2>All Tags</h2>
             <ul className="menu-list">
               <li>
                 <AniLink fade duration={0.6} to={`/tags/`}>

@@ -11,6 +11,7 @@ export default class BlogIndexPage extends React.Component {
       <Layout>
         <div className="blogPage">
           <h1 className="pageTitle">Posts</h1>
+          <p className="pageDescription">記事一覧</p>
           <section className="section">
             <div className="container">
               <div className="content">

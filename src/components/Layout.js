@@ -72,7 +72,11 @@ const TemplateWrapper = ({ children }) => {
             External Link
           </h2>
           <div className="social">
-            <a title="twitter" href="https://twitter.com/Airport1000">
+            <a 
+              title="twitter"
+              href="https://twitter.com/Airport1000"
+              target="_blank"
+            >
               <img
                 className="fas fa-lg"
                 src={twitter}
@@ -98,7 +102,7 @@ const TemplateWrapper = ({ children }) => {
                 style={{ width: '1em', height: '1em' }}
               />
             </a>
-            <a title="facebook" href="https://facebook.com">
+            <a　title="facebook" href="https://www.facebook.com/sharer/sharer.php?u=">
               <img
                 src={facebook}
                 alt="Facebook"

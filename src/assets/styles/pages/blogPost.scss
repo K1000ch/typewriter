@@ -1,23 +1,25 @@
 $baseMargin: 25px;
 
 .blogPost{
-  p,table,ul,ol,blockquote{
-    margin-bottom: $baseMargin;
-    line-height: 1.8;
-    letter-spacing: 0.03em;
+  .postBody{
+    p,table,ul,ol,blockquote{
+      margin-bottom: $baseMargin;
+      line-height: 1.8;
+      letter-spacing: 0.03em;
+    }
+    h2,h3,h4,h5,h6{
+      margin-bottom: $baseMargin - 20px;
+    }
+    p{
+      line-height: 2.1;
+      margin-bottom: $baseMargin;
+      letter-spacing: 0.03em;
+    }
+    table{
+      margin-bottom: $baseMargin;
+    }
   }
-  h2,h3,h4,h5,h6{
-    margin-bottom: $baseMargin - 20px;
-  }
-  p{
-    line-height: 2.1;
-    margin-bottom: $baseMargin;
-    letter-spacing: 0.03em;
-  }
-  table{
-    margin-bottom: $baseMargin;
-  }
-  
+
   // ImageStyles
   //----------------------------
   .innerImage{
@@ -49,6 +51,7 @@ $baseMargin: 25px;
 
 
   .blogPostHeader{
+    margin-bottom: $baseMargin;
     .blogPostTitle{
       font-size: 2.5rem;
       font-weight: 600;

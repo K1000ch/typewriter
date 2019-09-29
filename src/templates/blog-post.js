@@ -33,6 +33,7 @@ export const BlogPostTemplate = ({
               <h1 className="blogPostTitle">
                 {title_jp}
               </h1>
+              {tags && tags.length ? (
               <ul className="taglist">
                 <li>></li>
                 {tags.map(tag => (
@@ -42,25 +43,12 @@ export const BlogPostTemplate = ({
                   </li>
                 ))}
               </ul>
+              ) : null}
             </div>
             {/*
             <p>{description}</p>
             */}
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  <li>></li>
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                      ,
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
+            <PostContent className="postBody" content={content} />
           </div>
         </div>
       </div>

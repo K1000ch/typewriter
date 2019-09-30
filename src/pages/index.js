@@ -5,20 +5,27 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import "../assets/styles/pages/index.scss"
 
-// import WaterWave from 'react-water-wave';
+import Loadable from 'react-loadable';
 
 import image from "../../static/img/products-grid1.jpg"
 
-const WaterWave = "test";
+const Loading = () =>{
+  return(
+    <img
+      href="https://source.unsplash.com/random"
+    >
+    </img>
+  )
+}
+const LoadableComponent = Loadable({
+  loader: () => import("../components/WaterWave"),
+  loading: Loading,
+});
 
 const TagsPage = () => (
   <Layout>
     <div className="indexPage">
-      <WaterWave
-        imageUrl={"https://source.unsplash.com/random"}
-        className="ripple"
-      >
-      </WaterWave>
+      <LoadableComponent />
     </div>
   </Layout>
 )

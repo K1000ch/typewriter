@@ -1,23 +1,17 @@
 $color-quinary: grey;
+@import "basicVals";
 
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Serif+JP|Sawarabi+Mincho&display=swap');
 
+// @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Serif+JP|Sawarabi+Mincho&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,400i,700,700i&display=swap');
 @import url('https://fonts.googleapis.com/earlyaccess/hannari.css');
 
 // Font
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
 html{
-  color: #222222;
-  // font-family: 'Noto Sans JP', sans-serif;
+  color: $fontColorStrong;
   font-family: 'Hannari', serif;
   font-family: 'Josefin Slab', serif;
-  // font-family: 'Oswald', sans-serif;
-  // font-family: 'Lato', sans-serif;
-  // font-family: 'Quicksand', sans-serif;
-  // font-family: 'Noto Sans JP', sans-serif;
-
-
-
   // background-color: #fcfcfc;
 }
 
@@ -32,11 +26,11 @@ body{
 }
 a{
   text-decoration: none;
-  color: #222222;
+  color: $fontColorLight;
   // color: #606c76;
-  :hover{
+  &:hover{
     text-decoration: none;
-    color: #555555;
+    color: $fontColorExLight;
   }
 }
 
@@ -56,12 +50,13 @@ h3,
 h4,
 h5,
 h6 {
-  // font-weight: 300;
+  font-weight: 700;
   letter-spacing: -0.1rem;
   // margin-bottom: 2rem;
   margin-top: 0;
   padding: 0;
   display: block;
+  color: $fontColorStrong;
 }
 
 h1 {

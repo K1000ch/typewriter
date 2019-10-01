@@ -1,16 +1,23 @@
 $color-quinary: grey;
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Serif+JP|Sawarabi+Mincho&display=swap');
-// @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700|Noto+Serif+JP:200,300,400,500,600,700|Sawarabi+Mincho&display=swap');
-// font-family: 'Noto Sans JP', sans-serif;
-// font-family: 'Sawarabi Mincho', sans-serif;
-// font-family: 'Noto Serif JP', serif;
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/earlyaccess/hannari.css');
 
 // Font
 html{
   color: #222222;
   // font-family: 'Noto Sans JP', sans-serif;
-  font-family: sans-serif;
+  font-family: 'Hannari', serif;
+  font-family: 'Josefin Slab', serif;
+  // font-family: 'Oswald', sans-serif;
+  // font-family: 'Lato', sans-serif;
+  // font-family: 'Quicksand', sans-serif;
+  // font-family: 'Noto Sans JP', sans-serif;
+
+
+
   // background-color: #fcfcfc;
 }
 

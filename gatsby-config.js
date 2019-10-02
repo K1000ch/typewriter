@@ -2,7 +2,7 @@ var proxy = require('http-proxy-middleware')
 
 module.exports = {
   siteMetadata: {
-    title: 'Typewriter',
+    title: '知らない国の知らない言葉',
     description:
       'personal blog',
   },

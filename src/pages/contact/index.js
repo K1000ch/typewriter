@@ -42,11 +42,11 @@ export default class Index extends React.Component {
       <Layout>
         <section className="section contactPage">
           <div className="container">
-            <div className="content milligram">
+            <div className="content">
               <h1 className="pageTitle">Contact</h1>
               <p className="pageDescription"></p>
               <p>※現在調整中のためフォームは機能しません</p>
-              <a href="https://twitter.com/Airport1000">> Twitter</a>
+              <a href="https://twitter.com/Airport1000">> Twitterにどうぞ</a>
               <form
                 name="contact"
                 method="post"
@@ -54,6 +54,7 @@ export default class Index extends React.Component {
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
                 onSubmit={this.handleSubmit}
+                className="milligram"
               >
                 {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                 <input type="hidden" name="form-name" value="contact" />

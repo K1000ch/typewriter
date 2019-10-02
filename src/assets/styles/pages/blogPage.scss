@@ -1,3 +1,5 @@
+@import "../partials/basicVals";
+
 .blogPage{
   .blog-list-item{
     margin-bottom: 6vh;
@@ -14,9 +16,8 @@
     }
     .post-title{
       font-size: 2rem;
-      font-weight: 600;
-      border-bottom: solid 2px #222222;
-      padding-bottom: 2vh;
+      border-bottom: solid 1px $underLineColor;
+      padding-bottom: 1vh;
       padding-top: 1vh;
       margin-bottom: 2vh;
     }
@@ -37,7 +38,7 @@
     }
     p{
       line-height: 1.7;
-      font-size: 1.5rem;
+      font-size: 1.6rem;
     }
     .featured-thumbnail{
       width: 30%;

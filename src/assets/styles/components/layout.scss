@@ -38,7 +38,7 @@
       }
       .siteTitle{
         font-size: 3rem;
-        font-weight: 500;
+        font-weight: 600;
         margin-bottom: 1vh;
         border-bottom: solid 1px $underLineColor;
       }
@@ -96,7 +96,6 @@
         height: 2.2rem;
         width: 2.2rem;
         margin-left: 8px;
-        fill: $linkColor;
       }
     }
 
@@ -108,10 +107,11 @@
       .main{
         margin-bottom: 10vh;
         .pageTitle{
-          border-bottom: solid 2px #222222;
+          border-bottom: solid 1px $underLineColor;
           font-size: 3rem;
         }
         .pageDescription{
+          margin-top: 10px;
           margin-bottom: 5%;
         }
       }

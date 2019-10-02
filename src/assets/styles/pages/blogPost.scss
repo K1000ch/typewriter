@@ -1,4 +1,5 @@
 $baseMargin: 25px;
+@import "../partials/basicVals";
 
 .blogPost{
   .postBody{
@@ -54,8 +55,7 @@ $baseMargin: 25px;
     margin-bottom: $baseMargin;
     .blogPostTitle{
       font-size: 2.5rem;
-      font-weight: 600;
-      border-bottom: solid 2px #222222;
+      border-bottom: solid 2px $underLineColor;
       padding-bottom: 1vh;
       padding-top: 1vh;
       margin-bottom: 2vh;
@@ -68,10 +68,10 @@ $baseMargin: 25px;
       margin-right: 10px;
       list-style: none;
       a{
-        border-bottom: solid 1px #ffffff;
+        // border-bottom: solid 1px #ffffff;
         &:hover{
-          border-bottom: solid 1px #222222;
-          color: #555555;
+          // border-bottom: solid 1px #222222;
+          // color: #555555;
         }
       }
     }

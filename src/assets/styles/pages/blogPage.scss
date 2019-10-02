@@ -20,6 +20,9 @@
       padding-bottom: 1vh;
       padding-top: 1vh;
       margin-bottom: 2vh;
+      &:hover{
+        color: $fontColorLight;
+      }
     }
     .title{
       border: none;

@@ -129,17 +129,17 @@ export default () => (
         <div className="container">
 
         <section>
-            <h2>All Tags</h2>
+            <h2>Tags</h2>
             <ul className="menu-list">
               <li>
                 <AniLink fade duration={0.6} to={`/tags/`}>
-                  > All
+                  > View All
                 </AniLink>
               </li>
               {data.allMarkdownRemark.group.map(tag => (
                 <li key={tag.fieldValue}>
                   <AniLink fade duration={0.6} to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-                    > {tag.fieldValue}
+                    #{tag.fieldValue}
                   </AniLink>
                 </li>
               ))}
@@ -152,22 +152,22 @@ export default () => (
             <ul className="menu-list">
               <li>
                 <AniLink fade duration={0.6} className="navbar-item" to="/">
-                  Home
+                  > Home
                 </AniLink>
               </li>
               <li>
                 <AniLink fade duration={0.6} className="navbar-item" to="/about">
-                  About
+                  > About
                 </AniLink>
               </li>
               <li>
                 <AniLink fade duration={0.6} className="navbar-item" to="/blog">
-                  Blog
+                  > Blog
                 </AniLink>
               </li>
               <li>
                 <AniLink fade duration={0.6} className="navbar-item" to="/contact">
-                  Contact
+                  > Contact
                 </AniLink>
               </li>
             </ul>

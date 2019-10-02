@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import { kebabCase } from 'lodash'
+
 
 class BlogRoll extends React.Component {
   render() {
@@ -32,10 +34,21 @@ class BlogRoll extends React.Component {
                         {post.frontmatter.title_jp}
                       </h2>
                     </AniLink>
+                    {/*
+                    {post.frontmatter.tags ? (
+                    <ul className="taglist">
+                      {post.frontmatter.tags.map(tag => (
+                        <li key={tag + `tag`}>
+                          <Link to={`/tags/${kebabCase(tag)}/`}>#{tag}</Link>
+                        </li>
+                      ))}
+                    </ul>
+                    ) : null}
+                    */}
                   </p>
+                  
                 </header>
                 <p>
-
                   {post.frontmatter.featuredimage ? (
                     <div className="featured-thumbnail">
                       <PreviewCompatibleImage

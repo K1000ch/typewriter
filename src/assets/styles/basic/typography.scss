@@ -1,9 +1,8 @@
 $color-quinary: grey;
-@import "basicVals";
-
+@import "../partials/basicVals";
 
 // @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Serif+JP|Sawarabi+Mincho&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,400i,600,700,700i&display=swap');
 @import url('https://fonts.googleapis.com/earlyaccess/hannari.css');
 
 // Font
@@ -27,10 +26,12 @@ body{
 a{
   text-decoration: none;
   color: $fontColorLight;
+  color: $linkColor;
+  font-weight: 600;
   // color: #606c76;
   &:hover{
     text-decoration: none;
-    color: $fontColorExLight;
+    color: $linkColorHover;
   }
 }
 

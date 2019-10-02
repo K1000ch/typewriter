@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import '../assets/styles/basic/reset.css'
 import '../assets/styles/basic/base.scss'
 import '../assets/styles/basic/typography.scss'
+import '../assets/styles/basic/all.scss'
 import '../assets/styles/components/layout.scss'
 
 import facebook from '../img/social/facebook.svg'

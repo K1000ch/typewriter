@@ -43,7 +43,7 @@
         border-bottom: solid 1px $underLineColor;
       }
       .siteDescription{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         font-weight: lighter;
         margin-bottom: 4vh;
       }
@@ -60,13 +60,13 @@
           display: flex;
           justify-content: flex-end;
           ul{
-            width: 50%;
+            width: 100%;
             li{
               display: flex;
               justify-content: flex-end;
               list-style: none;
               a{
-                width: 5vw;
+                width: 25vw;
                 display: block;
                 &:hover{
                   border-bottom: none;

@@ -62,18 +62,4 @@ $baseMargin: 25px;
       margin-bottom: 1vh;
     }
   }
-  .taglist{
-    display: flex;
-    li{
-      margin-right: 10px;
-      list-style: none;
-      a{
-        // border-bottom: solid 1px #ffffff;
-        &:hover{
-          // border-bottom: solid 1px #222222;
-          // color: #555555;
-        }
-      }
-    }
-  }
 }

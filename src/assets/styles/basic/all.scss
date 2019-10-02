@@ -1,0 +1,14 @@
+@import "../partials/basicVals";
+
+
+.taglist{
+  display: flex;
+  li{
+    margin-right: 10px;
+    list-style: none;
+    a{
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+  }
+}

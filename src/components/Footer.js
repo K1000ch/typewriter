@@ -130,12 +130,14 @@ export default () => (
 
         <section>
             <h2>Tags</h2>
-            <ul className="menu-list">
+            <ul className="menu-list taglist">
+              {/*
               <li>
                 <AniLink fade duration={0.6} to={`/tags/`}>
-                  > View All
+                  >ViewAll
                 </AniLink>
               </li>
+              */}
               {data.allMarkdownRemark.group.map(tag => (
                 <li key={tag.fieldValue}>
                   <AniLink fade duration={0.6} to={`/tags/${kebabCase(tag.fieldValue)}/`}>
@@ -190,27 +192,35 @@ export default () => (
           </section>
           <section className="social">
             <h2>Share This Site</h2>
-            <a title="facebook" href="https://facebook.com">
-              <img
-                className="fas fa-lg"
-                src={facebook}
-                alt="Facebook"
-              />
-            </a>
-            <a title="twitter" href="https://twitter.com">
-              <img
-                className="fas fa-lg"
-                src={twitter}
-                alt="Twitter"
-              />
-            </a>
-            <a title="instagram" href="https://instagram.com">
-              <img
-                className="fas fa-lg"
-                src={instagram}
-                alt="Instagram"
-              />
-            </a>
+            <ul className="menu-list">
+              <li>
+                <a title="facebook" href="https://facebook.com">
+                  <img
+                    className="fas fa-lg"
+                    src={facebook}
+                    alt="Facebook"
+                  />
+                </a>
+              </li>
+              <li>
+                <a title="twitter" href="https://twitter.com">
+                  <img
+                    className="fas fa-lg"
+                    src={twitter}
+                    alt="Twitter"
+                  />
+                </a>
+              </li>
+              <li>
+                <a title="instagram" href="https://instagram.com">
+                  <img
+                    className="fas fa-lg"
+                    src={instagram}
+                    alt="Instagram"
+                  />
+                </a>
+              </li>
+            </ul>
           </section>
         </div>
       </footer>

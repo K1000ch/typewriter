@@ -34,9 +34,11 @@
       color: #333333;
     }
     .button{
-      border-bottom: solid 2px #ffffff;
+      font-size: 1.8rem;
+      font-weight: 700;
+      // border-bottom: solid 2px #ffffff;
       &:hover{
-        border-bottom: solid 2px #222222;
+        // border-bottom: solid 2px #222222;
       }
     }
     p{

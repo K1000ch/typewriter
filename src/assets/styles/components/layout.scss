@@ -45,11 +45,12 @@
       .siteDescription{
         font-size: 1.5rem;
         font-weight: lighter;
-        margin-bottom: 6vh;
+        margin-bottom: 4vh;
       }
       .menuHeader{
         font-size: 2.6rem;
         margin-bottom: 2vh;
+        margin-top: 2vh;
         // font-weight: 600;
         border-bottom: solid 1px $underLineColor;
       }
@@ -63,6 +64,7 @@
             li{
               display: flex;
               justify-content: flex-end;
+              list-style: none;
               a{
                 width: 5vw;
                 display: block;
@@ -86,9 +88,9 @@
         li{
           width: 100%;
           margin-bottom: 2vh;
-          border-bottom: solid 1px #ffffff;
+          // border-bottom: solid 1px #ffffff;
           :hover{
-            border-bottom: solid 1px #222222;
+            // border-bottom: solid 1px #222222;
           }
         }
       }

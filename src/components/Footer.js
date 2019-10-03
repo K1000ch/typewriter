@@ -180,7 +180,11 @@ export default () => (
             </h2>
             <ul className="menu-list">
               <li>
-                <a title="twitter" href="https://twitter.com/Airport1000">
+                <a
+                  title="twitter"
+                  href="https://twitter.com/Airport1000"x
+                  rel="noopener"
+                >
                   <img
                     className="fas fa-lg"
                     src={twitter}
@@ -194,7 +198,12 @@ export default () => (
             <h2>Share This Site</h2>
             <ul className="menu-list">
               <li>
-                <a title="facebook" href="https://facebook.com">
+                <a
+                  title="facebook"
+                  href="https://facebook.com"
+                  target="_blank"
+                  rel="noopener"
+                >
                   <img
                     className="fas fa-lg"
                     src={facebook}
@@ -203,7 +212,12 @@ export default () => (
                 </a>
               </li>
               <li>
-                <a title="twitter" href="https://twitter.com">
+                <a
+                  title="twitter"
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener"
+                >
                   <img
                     className="fas fa-lg"
                     src={twitter}
@@ -212,7 +226,12 @@ export default () => (
                 </a>
               </li>
               <li>
-                <a title="instagram" href="https://instagram.com">
+                <a
+                  title="instagram"
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener" 
+                >
                   <img
                     className="fas fa-lg"
                     src={instagram}

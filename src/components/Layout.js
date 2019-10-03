@@ -79,6 +79,7 @@ const TemplateWrapper = ({ children }) => {
                 title="twitter"
                 href="https://twitter.com/Airport1000"
                 target="_blank"
+                rel="noopener"
               >
                 <img
                   className="fas fa-lg"
@@ -96,7 +97,7 @@ const TemplateWrapper = ({ children }) => {
               <a href="https://twitter.com/share?
                 url=http://itoh-archive.hatenablog.com/entry/about&
                 text=TwitterShareTest"
-                rel="nofollow" 
+                rel="noopener" 
                 target="_blank"
               >
                 <img
@@ -105,14 +106,24 @@ const TemplateWrapper = ({ children }) => {
                   alt="Twitter"
                 />
               </a>
-              <a　title="facebook" href="https://www.facebook.com/sharer/sharer.php?u=">
+              <a
+                title="facebook"
+                href="https://www.facebook.com/sharer/sharer.php?u="
+                rel="noopener"
+                target="_blank"
+              >
                 <img
                   className="fas fa-lg"
                   src={facebook}
                   alt="Facebook"
                 />
               </a>
-              <a title="instagram" href="https://instagram.com">
+              <a
+                title="instagram"
+                href="https://instagram.com"
+                rel="noopener"
+                target="_blank"
+              >
                 <img
                   className="fas fa-lg"
                   src={instagram}

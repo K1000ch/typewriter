@@ -70,52 +70,56 @@ const TemplateWrapper = ({ children }) => {
             Menu
           </h2>
           <Navbar className="leftNav"/>
-          <h2 className="menuHeader">
-            External Link
-          </h2>
-          <div className="social">
-            <a 
-              title="twitter"
-              href="https://twitter.com/Airport1000"
-              target="_blank"
-            >
-              <img
-                className="fas fa-lg"
-                src={twitter}
-                alt="Twitter"
-              />
-            </a>
+          <div className="externalLinkMenu">
+            <h2 className="menuHeader">
+              External Link
+            </h2>
+            <div className="social">
+              <a 
+                title="twitter"
+                href="https://twitter.com/Airport1000"
+                target="_blank"
+              >
+                <img
+                  className="fas fa-lg"
+                  src={twitter}
+                  alt="Twitter"
+                />
+              </a>
+            </div>
           </div>
-          <h2 className="menuHeader">
-            Share
-          </h2>
-          <div className="social">
-            <a href="https://twitter.com/share?
-              url=http://itoh-archive.hatenablog.com/entry/about&
-              text=TwitterShareTest"
-              rel="nofollow" 
-              target="_blank"
-            >
-              <img
-                className="fas fa-lg"
-                src={twitter}
-                alt="Twitter"
-              />
-            </a>
-            <a　title="facebook" href="https://www.facebook.com/sharer/sharer.php?u=">
-              <img
-                className="fas fa-lg"
-                src={facebook}
-                alt="Facebook"
-              />
-            </a>
-            <a title="instagram" href="https://instagram.com">
-              <img
-                className="fas fa-lg"
-                src={instagram}
-                alt="Instagram"
-              />
-            </a>
+          <div className="shareMenu">
+            <h2 className="menuHeader">
+              Share
+            </h2>
+            <div className="social">
+              <a href="https://twitter.com/share?
+                url=http://itoh-archive.hatenablog.com/entry/about&
+                text=TwitterShareTest"
+                rel="nofollow" 
+                target="_blank"
+              >
+                <img
+                  className="fas fa-lg"
+                  src={twitter}
+                  alt="Twitter"
+                />
+              </a>
+              <a　title="facebook" href="https://www.facebook.com/sharer/sharer.php?u=">
+                <img
+                  className="fas fa-lg"
+                  src={facebook}
+                  alt="Facebook"
+                />
+              </a>
+              <a title="instagram" href="https://instagram.com">
+                <img
+                  className="fas fa-lg"
+                  src={instagram}
+                  alt="Instagram"
+                />
+              </a>
+            </div>
           </div>
 
             <div className="pad"></div>

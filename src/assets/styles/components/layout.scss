@@ -34,7 +34,7 @@
         background: grey;
       }
       .pad{
-        height: 20vh;
+        // height: 20vh;
       }
       .siteTitle{
         font-size: 3rem;
@@ -116,6 +116,88 @@
           margin-top: 10px;
           margin-bottom: 5%;
         }
+      }
+    }
+  }
+}
+
+// タブレット用
+@media (max-width:768px) and (min-width:426px){
+  .layout{
+    .clearfix{
+      .left{
+        .siteTitle{
+          font-size: 2.8rem;
+        }
+      }
+    }
+  }
+}
+
+// モバイル用
+@media (max-width:425px) {
+  .layout{
+    .clearfix{
+      .left{
+        float: none;
+        position: static;
+        width: 100%;
+        text-align: left;
+
+
+        .siteTitle{
+          font-size: 2.2rem;
+          font-weight: 600;
+          margin-bottom: 1vh;
+          border-bottom: solid 1px $underLineColor;
+          br{
+            display: none;
+          }
+        }
+
+        .menuHeader{
+          font-size: 2rem;
+        }
+
+        .externalLinkMenu{
+          display: none;
+        }
+        .shareMenu{
+          display: none;
+        }
+
+        .navbar{
+          .navbar-menu{
+            display: flex;
+            justify-content: flex-end;
+            ul{
+              width: 100%;
+              display: flex;
+              li{
+                display: flex;
+                justify-content: flex-start;
+                list-style: none;
+                a{
+                  width: 100%;
+                  display: block;
+                  &:hover{
+                    border-bottom: none;
+                  }
+                  // border-bottom: solid 1px; 
+                  &:before{
+                    content: "> ";
+                  }
+                }
+              }
+            }
+          }
+        }
+
+      }
+      .right{
+        float: none;
+        width: 100%;
+        margin-left: 0%;
       }
     }
   }

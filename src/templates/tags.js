@@ -80,7 +80,7 @@ class TagRoute extends React.Component {
               >
                 <h2 className="pageTitle">{tag}</h2>
                 <p className="pageDescription">{tagHeader}</p>
-                <ul className="taglist">
+                <ul className="">
                   {postLinks}
                 </ul>
               </div>

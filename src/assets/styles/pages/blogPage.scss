@@ -58,3 +58,15 @@
     }
   }
 }
+
+@media (max-width:425px) {
+  .blogPage{
+    .blog-list-item{
+      .featured-thumbnail{
+        width: 100%;
+        margin-right: 0vh;
+        float: none;
+      }
+    }
+  }
+}

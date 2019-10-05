@@ -20,7 +20,7 @@ const TemplateWrapper = ({ children }) => {
   return (
     <div className="layout">
       <Helmet>
-        <html lang="en" />
+        <html lang="ja" />
         <title>{title}</title>
         <meta name="description" content={description} />
         {/*

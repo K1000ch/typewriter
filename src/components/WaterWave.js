@@ -1,8 +1,6 @@
 import React from 'react'
 import ReactWaterWave from "react-water-wave"
-import Image from "../../static/img/999823c5-fd69-4329-8a35-8424b8f9779c.jpeg"
-
-
+import Image from "../../static/water-wave-img/img2.jpg"
 
 let rippleStyle = {
   backgroundImage: `url(${Image})`,

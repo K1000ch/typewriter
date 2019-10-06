@@ -4,3 +4,12 @@
     height: 80vh;
   }
 }
+
+@media (max-width:425px) {
+  .indexPage{
+    min-height: 20vh;
+    .ripple{
+      height: 60vh;
+    }
+  }
+}

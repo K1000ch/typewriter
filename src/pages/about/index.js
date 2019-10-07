@@ -15,13 +15,15 @@ const TagsPage = () => (
       </h1>
       <p className="pageDescription">このサイトについて</p>
       <p>
-        review,blog,and some
-        <br/>
-        モバイル対応準備中です
+        当サイトは個人的なブログ、文章置き場です。
+        <br />
+        本、音楽のレビューなど載せて行く予定。
         <br/><br/>
-        Author : Chihiro
+        <h4>
+          Author : Chihiro
+        </h4>
         <br/>
-        <a href="https://twitter.com/Airport1000">> Twitter</a>
+        <a href="https://twitter.com/Airport1000">著者のTwitterアカウントはこちら</a>
         <br/>
       </p>
 

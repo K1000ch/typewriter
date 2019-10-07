@@ -95,7 +95,7 @@ const TemplateWrapper = ({ children }) => {
             </h2>
             <div className="social">
               <a href="https://twitter.com/share?
-                url=http://itoh-archive.hatenablog.com/entry/about&
+                url=https://pensive-swirles-038d0a.netlify.com/&
                 text=TwitterShareTest"
                 rel="noopener" 
                 target="_blank"
@@ -106,6 +106,7 @@ const TemplateWrapper = ({ children }) => {
                   alt="Twitter"
                 />
               </a>
+              {/*
               <a
                 title="facebook"
                 href="https://www.facebook.com/sharer/sharer.php?u="
@@ -130,6 +131,7 @@ const TemplateWrapper = ({ children }) => {
                   alt="Instagram"
                 />
               </a>
+              */}
             </div>
           </div>
 

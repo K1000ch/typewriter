@@ -7,6 +7,8 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
 import "../assets/styles/pages/blogPost.scss"
+import twitter from '../img/social/twitter.svg'
+
 
 export const BlogPostTemplate = ({
   content,
@@ -17,6 +19,7 @@ export const BlogPostTemplate = ({
   helmet,
   title_jp,
   date,
+  slug,
 }) => {
   const PostContent = contentComponent || Content
 
@@ -31,7 +34,7 @@ export const BlogPostTemplate = ({
                 {date}
               </span>
               <h1 className="blogPostTitle">
-                {title_jp}
+                {title_jp}{slug}
               </h1>
               {tags && tags.length ? (
               <ul className="taglist">
@@ -47,6 +50,24 @@ export const BlogPostTemplate = ({
             <p>{description}</p>
             */}
             <PostContent className="postBody" content={content} />
+
+            <h2 className="menuHeader">
+              Share This Post
+            </h2>
+            <a 
+              href={
+                "https://twitter.com/share?url=https://pensive-swirles-038d0a.netlify.com"
+                 + slug + "&text=" + title_jp
+              }
+              rel="noopener" 
+              target="_blank"
+            >
+              <img
+                className="fas fa-lg"
+                src={twitter}
+                alt="Twitter"
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -62,6 +83,7 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
   title_jp: PropTypes.string,
   date: PropTypes.string,
+  slug: PropTypes.string,
 }
 
 const BlogPost = ({ data }) => {
@@ -86,6 +108,7 @@ const BlogPost = ({ data }) => {
         title={post.frontmatter.title}
         title_jp={post.frontmatter.title_jp}
         date={post.frontmatter.date}
+        slug={post.fields.slug}
       />
     </Layout>
   )
@@ -110,6 +133,9 @@ export const pageQuery = graphql`
         description
         tags
         title_jp
+      }
+      fields {
+        slug
       }
     }
   }

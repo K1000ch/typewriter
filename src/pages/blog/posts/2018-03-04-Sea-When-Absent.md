@@ -1,16 +1,16 @@
 ---
-templateKey: 'blog-post'
-title: 'Sea When Absent Review'
+templateKey: blog-post
+title: absent Review
+title_jp: Sea Absent
 date: 2018-03-04T15:04:10.000Z
-featuredpost: true
-featuredimage: /img/insiderose.jpg
 description: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
   Mountain coffee beans in our store next week.
+featuredpost: true
+featuredimage: /img/insiderose.jpg
 tags:
   - tasting
   - review
-title_jp: 'Sea When Absent'
 ---
 これは聴いてからとにかく凄いとしか言えなかったアルバムで、ディストーションと空間系エフェクトの暴力によって耳に壮大なサウンドスケープを拓く魔術である。一曲目を聞いた瞬間からもう虜になってしまった。
 

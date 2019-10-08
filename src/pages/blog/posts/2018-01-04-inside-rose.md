@@ -1,14 +1,13 @@
 ---
-templateKey: 'blog-post'
-title: 'Inside the Rose Review'
+templateKey: blog-post
+title: ' Review'
+title_jp: 'rebyu- '
 date: 2018-01-04T15:04:10.000Z
+description: The
 featuredpost: true
 featuredimage: /img/insiderose.jpg
-description: >-
-  These New Puritans Album Review
 tags:
   - tasting
-title_jp: 'Inside the Rose レビュー'
 ---
 手稿には記号システムが確認されている特殊な文字によって何かの詳細な説明らしき文章が多数並んでおり、ページの上部や左右にはかなり緻密な植物や花を思わせる彩色画が描かれている。植物の絵が多いが、それ以外にも、銀河や星雲などの天体図に見える絵や、精子のように見える絵、複雑な給水配管のような絵、プールや浴槽に浸かった女性の絵などの不可解な挿絵が多数描かれている。
 

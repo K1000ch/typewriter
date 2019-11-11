@@ -13,10 +13,8 @@ tags:
 ---
 ## 蘇るビート
 
-<span class="innerImage floatLeft imageM"> 
-  <img src="/img/insiderose.jpg"/>
-</span>
 
+![chemex](/img/insiderose.jpg)
 
 These New Puritansの4枚目のアルバム。
 調べると前作『Field of Reeds』のリリース(2013年)からは6年経っているのだが、これは恐ろしく完成度の高い怪物的なアルバムであり、彼らのキャリアの総決算的な趣すらある。静謐でダイナミックな、まるで漆黒の宇宙を漂っているかのような甘美な40分。TNPの過去3作に表れていたポストパンク、アンビエンス、チェンバーポップといったそれぞれの志向がここへ来てついに統合されたようにも見える。
@@ -90,3 +88,7 @@ A kind of nightmare
 A kind of I don’t care
 I see you
 </blockquote>
+
+<span class="innerImage floatLeft imageM"> 
+  <img src="/img/insiderose.jpg"/>
+</span>

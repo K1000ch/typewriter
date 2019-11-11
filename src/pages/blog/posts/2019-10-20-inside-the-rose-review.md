@@ -13,12 +13,8 @@ tags:
 ---
 ## 蘇るビート
 
-<span class="innerImage floatLeft imageM">
-  ![chemex](/img/insiderose.jpg)
-</span>
-
-<span class="innerImage floatRight imageS"> 
-  <img src="/img/68r.jpg"/>
+<span class="innerImage floatLeft imageM"> 
+  <img src="/img/insiderose.jpg"/>
   <span class="imageCaption">
     イメージです
   </span> 

@@ -34,7 +34,7 @@ export const BlogPostTemplate = ({
                 {date}
               </span>
               <h1 className="blogPostTitle">
-                {title_jp}{slug}
+                {title_jp}
               </h1>
               {tags && tags.length ? (
               <ul className="taglist">

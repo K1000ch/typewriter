@@ -66,8 +66,11 @@ And I am running into the fire
 
 <blockquote>
 These are my words
+<br />
 As I return
+<br />
 Let’s go back to underworld
+<br />
 Let’s go back inside
 </blockquote>
 
@@ -84,7 +87,10 @@ Let’s go back inside
 
 <blockquote>
 Let’s this music be a kind of paradise
+<br />
 A kind of nightmare
+<br />
 A kind of I don’t care
+<br />
 I see you
 </blockquote>

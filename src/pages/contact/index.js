@@ -45,8 +45,8 @@ export default class Index extends React.Component {
             <div className="content">
               <h1 className="pageTitle">Contact</h1>
               <p className="pageDescription"></p>
-              <p>※現在調整中のためフォームは機能しません</p>
-              <a href="https://twitter.com/Airport1000">> Twitterにどうぞ</a>
+              <p>※現在調整中です</p>
+              {/* <a href="https://twitter.com/Airport1000">> Twitterにどうぞ</a> */}
               <form
                 name="contact"
                 method="post"

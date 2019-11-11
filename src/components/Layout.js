@@ -77,7 +77,7 @@ const TemplateWrapper = ({ children }) => {
             <div className="social">
               <a 
                 title="twitter"
-                href="https://twitter.com/Airport1000"
+                // href="https://twitter.com/Airport1000"
                 target="_blank"
                 rel="noopener"
               >

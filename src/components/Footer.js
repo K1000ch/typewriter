@@ -182,7 +182,7 @@ export default () => (
               <li>
                 <a
                   title="twitter"
-                  href="https://twitter.com/Airport1000"x
+                  // href="https://twitter.com/Airport1000"x
                   rel="noopener"
                 >
                   <img

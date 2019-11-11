@@ -23,7 +23,7 @@ const TagsPage = () => (
           Author : Chihiro
         </h4>
         <br/>
-        <a href="https://twitter.com/Airport1000">著者のTwitterアカウントはこちら</a>
+        {/* <a href="https://twitter.com/Airport1000">著者のTwitterアカウントはこちら</a> */}
         <br/>
       </p>
 

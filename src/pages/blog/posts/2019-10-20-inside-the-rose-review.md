@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
-title: Inside the Rose Review
-title_jp: Inside the Rose アルバムレビュー
+title: These New Puritans - Inside the Rose Review
+title_jp: These New Puritns - Inside the Rose レビュー
 date: 2019-10-20T02:13:53.739Z
 description: Inside the Rose アルバムレビュー
 featuredpost: true

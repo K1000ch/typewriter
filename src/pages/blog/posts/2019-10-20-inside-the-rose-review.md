@@ -37,9 +37,9 @@ Beyond Black Sunsは電子ドラムの重いビートと浮遊感のあるアン
 前作は全体的に淡々としすぎていてポップ・ミュージックに慣れた耳にはいささか辛い面があったが、本作は静かめの曲も良い感じに緩急が効いており飽きずに聴ける。
 
 アルバムのハイライトは5〜6。
-
-> This is Where the trees are on fire
-
+<blockquote>
+This is Where the trees are on fire
+</blockquote>
 と繰り返されるリフレインのなか徐々に疾走感を盛り上げていくようなWhere the Trees Are on Fireから、一転、TNPらしい激しい変則的ビートに乗せて
 <blockquote>
 And I am running into the fire
@@ -58,10 +58,12 @@ And I am running into the fire
 
 そこに共通して見出せるのは、閉じた世界への志向とでも言うようなものになるだろうか。
 
-> These are my words
-> As I return
-> Let’s go back to underworld
-> Let’s go back inside
+<blockquote>
+These are my words
+As I return
+Let’s go back to underworld
+Let’s go back inside
+</blockquote>
 
 と歌う一曲目のInfinity Vibraphonesからして、なにか閉じた世界への志向が窺われる。
 
@@ -74,10 +76,9 @@ And I am running into the fire
 
 だから僕はA-R-Pの以下の一節を聴いたとき、このアルバムの志向がそのまま言葉に現れているかのようではっと目が覚める思いがしたのだった。
 
-> Let’s this music be a kind of paradise
->
-> A kind of nightmare
->
-> A kind of I don’t care
->
-> I see you
+<blockquote>
+Let’s this music be a kind of paradise
+A kind of nightmare
+A kind of I don’t care
+I see you
+</blockquote>

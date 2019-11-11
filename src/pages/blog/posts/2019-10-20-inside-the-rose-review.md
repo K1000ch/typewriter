@@ -7,7 +7,7 @@ description: Inside the Rose アルバムレビュー
 featuredpost: true
 featuredimage: /img/insiderose.jpg
 tags:
-  - review music these-new-puritans
+  - review
 ---
 ## 蘇るビート
 

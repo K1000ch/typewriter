@@ -8,6 +8,8 @@ featuredpost: true
 featuredimage: /img/insiderose.jpg
 tags:
   - review
+  - music
+  - these-new-puritans
 ---
 ## 蘇るビート
 

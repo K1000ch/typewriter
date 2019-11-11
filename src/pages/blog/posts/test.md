@@ -1,18 +1,17 @@
 ---
-templateKey: 'blog-post'
-title: 'littelete'
-title_jp: 'ヴォイニッチ手稿'
+templateKey: blog-post
+title: littelete
+title_jp: ヴォイニッチ手稿
 date: 2017-01-04T15:04:10.000Z
+description: This is test post
 featuredpost: false
 featuredimage: /img/68r.jpg
-description: >-
-  This is test post
 tags:
   - test
   - voinich
 ---
 
-ヴォイニッチ手稿（ヴォイニッチしゅこう、ヴォイニッチ写本、ヴォイニック写本とも、英語: Voynich Manuscript）とは、1912年にイタリアで発見された古文書（写本）。未解読の文字が記され、多数の奇妙な絵が描かれていることが特徴である。
+ヴォイニッチ手稿（ヴォイニッチしゅこう、ヴォイニッチ写本、ヴォイニック写本とも、英語: Voynich Manuscript）とは、1912年にイタリアで発見された古文書（写本）c。未解読の文字が記され、多数の奇妙な絵が描かれていることが特徴である。
 ![chemex](/img/68r.jpg)
 ## 概要
 

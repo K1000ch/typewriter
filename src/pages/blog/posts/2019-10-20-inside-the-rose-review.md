@@ -9,10 +9,10 @@ featuredimage: /img/insiderose.jpg
 tags:
   - review
 ---
-## 蘇るビート
-
 These New Puritansの4枚目のアルバム。
 調べると前作『Field of Reeds』のリリース(2013年)からは6年経っているのだが、これは恐ろしく完成度の高い怪物的なアルバムであり、彼らのキャリアの総決算的な趣すらある。静謐でダイナミックな、まるで漆黒の宇宙を漂っているかのような甘美な40分。TNPの過去3作に表れていたポストパンク、アンビエンス、チェンバーポップといったそれぞれの志向がここへ来てついに統合されたようにも見える。
+
+## 蘇るビート
 
 少しディスコグラフィの話をすると、もともとTNPの大きな特徴はポストパンク的なビートをさらに過激化して煮詰めたような、呪術的な変則ビートであったように思う。Elvis、En Papier、We Want War、Drum-Court、その他曲名を挙げればきりがないが、TNPの曲はある種機械的な、重く引っかかりのあるビートが耳に残る。それは踊れるわけでも乗れるわけでもないが、土着的な宗教音楽にも通じるようなプリミティブな躍動感とトリップ感を持っていた。\
 ところが彼らは3枚目のアルバム『Field of Reeds』で突然、持ち味であるこの呪術的ビートを最小限まで切り詰めたようなアルバムを作ってしまった。
@@ -60,8 +60,11 @@ And I am running into the fire
 
 <blockquote>
 These are my words
+<br />
 As I return
+<br />
 Let’s go back to underworld
+<br />
 Let’s go back inside
 </blockquote>
 
@@ -78,7 +81,10 @@ Let’s go back inside
 
 <blockquote>
 Let’s this music be a kind of paradise
+<br />
 A kind of nightmare
+<br />
 A kind of I don’t care
+<br />
 I see you
 </blockquote>

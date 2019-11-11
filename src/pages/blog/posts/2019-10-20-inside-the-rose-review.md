@@ -41,9 +41,9 @@ Beyond Black Sunsは電子ドラムの重いビートと浮遊感のあるアン
 > This is Where the trees are on fire
 
 と繰り返されるリフレインのなか徐々に疾走感を盛り上げていくようなWhere the Trees Are on Fireから、一転、TNPらしい激しい変則的ビートに乗せて
-
-> And I am running into the fire
-
+<blockquote>
+And I am running into the fire
+</blockquote>
 と歌うInto the Fireへの流れは歌詞としても繋がりが感じられ、間違いなくアルバムのハイライトだ。
 
 本作においては、時として相反する要素の数々が矛盾なく統合されている。\

@@ -76,17 +76,8 @@ Beyond Black Sunsは電子ドラムの重いビートと浮遊感のあるアン
 
 > Let’s this music be a kind of paradise
 >
-> \
->
->
 > A kind of nightmare
 >
-> \
->
->
 > A kind of I don’t care
->
-> \
->
 >
 > I see you

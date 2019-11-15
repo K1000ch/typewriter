@@ -7,7 +7,9 @@ description: ASDIG Sea When Absent Review
 featuredpost: false
 featuredimage: /img/a3007248873_10.jpg
 tags:
-  - review
+  - Review
+  - Music
+  - A-Sunny-Day-In-Glasgow
 ---
 これは聴いてからとにかく凄いとしか言えなかったアルバムで、繊細かつ大胆なオーケストラであり、ディストーションと空間系エフェクトの暴力によって耳に壮大なサウンドスケープを拓く魔術である。  
 まどろむような歌声と多幸感に溢れるメロディは何か新手の呪術のようですらある。  

@@ -7,9 +7,9 @@ description: Inside the Rose アルバムレビュー
 featuredpost: true
 featuredimage: /img/insiderose.jpg
 tags:
-  - review
-  - music
-  - these-new-puritans
+  - Review
+  - Music
+  - These-New-Puritans
 ---
 
 ![album-jacket](/img/insiderose.jpg)

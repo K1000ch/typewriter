@@ -6,9 +6,9 @@ date: 2019-11-02T05:52:52.717Z
 description: アントン・シガーについて
 featuredpost: false
 tags:
-  - review
-  - cinema
-  - essay
+  - Review
+  - Cinema
+  - Essay
 ---
 PUBGをプレイしていたらS12K(セミオートで連射できるショットガン)にサプレッサーを付けられる事に気付いて、そのバシッという銃声を聞いていたらアントン・シガーのことを思い出した。  
 映画『ノーカントリー』に出てきたアイツである。

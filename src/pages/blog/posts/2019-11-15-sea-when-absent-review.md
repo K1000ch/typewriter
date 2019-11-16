@@ -11,7 +11,10 @@ tags:
   - Music
   - A-Sunny-Day-In-Glasgow
 ---
-![album-jacket](/img/a3007248873_10.jpg)
+
+<span class="innerImage floatLeft imageM">
+  <img src="/img/a3007248873_10.jpg"/>
+</span>
 
 これは聴いてからとにかく凄いとしか言えなかったアルバムで、繊細かつ大胆なオーケストラであり、ディストーションと空間系エフェクトの暴力によって耳に壮大なサウンドスケープを拓く魔術である。  
 まどろむような歌声と多幸感に溢れるメロディは何か新しい呪術のようですらある。  

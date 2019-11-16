@@ -8,6 +8,8 @@ featuredpost: false
 featuredimage: /img/a0342448387_10.jpg
 tags:
   - Review
+  - Music
+  - Human-Tetris
 ---
 1. People
 1. Our Love Ends

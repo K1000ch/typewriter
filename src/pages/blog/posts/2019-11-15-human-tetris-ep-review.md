@@ -11,7 +11,10 @@ tags:
   - Music
   - Human-Tetris
 ---
-![album-jacket](/img/a0342448387_10.jpg)
+
+<span class="innerImage floatLeft imageM">
+  <img src="/img/a0342448387_10.jpg"/>
+</span>
 
 1. 1 People
 1. 2 Our Love Ends

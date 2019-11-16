@@ -12,7 +12,7 @@ tags:
   - These-New-Puritans
 ---
 
-<span class="innerImage floatLeft imageM">
+<span class="innerImage floatRight imageM">
   <img src="/img/insiderose.jpg"/>
 </span>
 

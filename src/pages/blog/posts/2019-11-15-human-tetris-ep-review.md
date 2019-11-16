@@ -12,18 +12,12 @@ tags:
   - Human-Tetris
 ---
 
-<span class="innerImage floatLeft imageM">
-  <img src="/img/a0342448387_10.jpg"/>
-</span>
-
-1. 1 People
-1. 2 Our Love Ends
-1. 3 Baltic Sea
-1. 4 My Story
-1. 5 No Ones
-
 ロシアのポストパンク/ニューウェーブロックバンド、Human TetrisのEPアルバム。  
 ちょっと情報が少なくディスコグラフィのことはよくわからなかったが、たぶん彼らの最初の作品である。
+
+<span class="innerImage floatRight imageM">
+  <img src="/img/a0342448387_10.jpg"/>
+</span>
 
 サウンドとしては教科書的なポストパンク/ニューウェーブだ。  
 踊れるビートにゴリゴリとしたベースが乗り、ギターはシンプル、ヴォーカルは低い声で歌う。最初から最後までこのジャンルの文法を(いささか愚直すぎるくらいに)よく踏襲していて、タイトなドラムと手数多めのベース、渋いヴォーカルが心地よい。特にキャッチーなのは「Our Love Ends」「Baltic Sea」「My Story」の三曲だろうか。
@@ -48,5 +42,11 @@ Human Tetrisの持つ特別な魅力のひとつは、あっけからんとし�
 英米にルーツを持つロックという文化においては尚更だ。
 
 だから、たぶん自分とおなじ田舎者がこういう本格的なロックを鳴らしているのを聴くと、僕は何か嬉しくなってしまうのです。
+
+1. 1 People
+1. 2 Our Love Ends
+1. 3 Baltic Sea
+1. 4 My Story
+1. 5 No Ones
 
 ![dummy](/img/dummy.png)

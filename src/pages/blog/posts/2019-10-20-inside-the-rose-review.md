@@ -94,3 +94,5 @@ A kind of I don’t care
 <br />
 I see you
 </blockquote>
+
+![dummy](/img/dummy.png)

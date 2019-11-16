@@ -7,7 +7,7 @@ import "../assets/styles/pages/index.scss"
 
 import Loadable from 'react-loadable';
 
-import image from "../../static/img/products-grid1.jpg"
+// import image from "../../static/img/products-grid1.jpg"
 
 const Loading = () =>{
   return(

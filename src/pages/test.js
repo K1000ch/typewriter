@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
-import image from "../../static/img/products-grid1.jpg"
 
 
 const TagsPage = () => (

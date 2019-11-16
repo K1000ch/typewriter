@@ -11,11 +11,13 @@ tags:
   - Music
   - Human-Tetris
 ---
-1. People
-1. Our Love Ends
-1. Baltic Sea
-1. My Story
-1. No Ones
+![album-jacket](/img/a0342448387_10.jpg)
+
+1. 1 People
+1. 2 Our Love Ends
+1. 3 Baltic Sea
+1. 4 My Story
+1. 5 No Ones
 
 ロシアのポストパンク/ニューウェーブロックバンド、Human TetrisのEPアルバム。  
 ちょっと情報が少なくディスコグラフィのことはよくわからなかったが、たぶん彼らの最初の作品である。

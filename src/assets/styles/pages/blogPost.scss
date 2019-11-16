@@ -108,21 +108,21 @@ $baseMargin: 25px;
     // background-color: #d3d3d3;
   }
   .floatRight{
-    float: right;
-    margin-left: 2%;
+    float: none;
+    margin-left: 0%;
   }
   .floatLeft{
-    float: left;
-    margin-right: 2%;
+    float: none;
+    margin-right: 0%;
   }
   .imageS{
-    width: 30%;
+    width: 100%;
   }
   .imageM{
-    width: 50%;
+    width: 100%;
   }
   .imageL{
-    width: 70%;
+    width: 100%;
   }
   .imageCaption{
     display: inline-block;

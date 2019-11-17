@@ -50,10 +50,23 @@ Boys Turn Into Girls(Initiation Rites)はタイトルと合わせて特別な愛
 
 The Body, It Bends(ペルセポネが帰ってきた!)とOh, I’m a Wracker、これらは本作のポップな面がよく現れている二曲。  
 とにかくメロディが良く、ヴォーカルの歌い方にも力が入っている。
-ペルセポネが帰ってきた!となぜか日本語が入っているのがカワイイ。
+ペルセポネが帰ってきた！となぜか日本語が入っているのがカワイイ。
 
 ところで、本作の引き合いに出されるべきアルバムがあるとしたら、それは何よりもまずMy Bloody Valentineの『Loveless』をおいて他にないだろうと思う。
 
 あの作品には一種独特の奥まった幽玄な感じがあり、それはシューゲイザーの後継者たちが引き継ぐことができなかった特別な味わいだと思っていたのだが、本作を聞いた時それは間違いだったことが分かった。シューゲイザーの後継者は数多い。しかしMy Bloody Valentine直系の後継者を挙げろと言われたなら、僕はなによりもまずASDIGの名を出すことだろう。
+
+1. Byebye, Big Ocean (The End)
+1. In Love With Useless (The Timeless Geometry In The Tradition Of Passing)
+1. Crushin’
+1. M.T.L.O.V. (Minor Keys)
+1. The Things They Do To Me
+1. Boys Turn Into Girls (Initiation Rites)
+1. Never Nothing (It’s Alright [It’s Ok])
+1. Double Dutch
+1. The Body, It Bends (ペルセポネが帰ってきた！)
+1. Oh, I’m A Wrecker (What To Say To Crazy People)
+1. Golden Waves
+1. Eminent Love (Only In Walks In Dreams)
 
 ![dummy](/img/dummy.png)
